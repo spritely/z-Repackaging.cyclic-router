@@ -1,0 +1,12 @@
+{
+  "name": "cyclejs-router-repackaging",
+  "version": "3.0.1",
+  "description": "cyclejs router repackaging",
+  "license": "UNLICENSED",
+  "repository": {},
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "cyclic-router": "^3.0.1"
+  }
+}

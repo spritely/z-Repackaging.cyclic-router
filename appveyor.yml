@@ -1,0 +1,15 @@
+version: 3.0.{build}
+
+image: Visual Studio 2015
+
+cache:
+  - node_modules -> package.json
+
+build_script:
+- cmd: >-
+    npm install
+
+    node node_modules\browserify\bin\cmd.js node_modules\cyclic-router\lib\index.js -o cyclic-router.js
+
+after_test:
+  - appveyor PushArtifact "cyclic-router.js"
