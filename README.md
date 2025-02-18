@@ -1,3 +1,5 @@
+Repository is archived and no longer maintained.
+
 Spritely.Repackaging.cyclic-router
 ======================
 
